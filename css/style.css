@@ -123,11 +123,19 @@ a:focus {
 }
 
 .navbar-brand {
+  display: inline-flex;
+  align-items: center;
   font-size: 28px;
   font-weight: bold;
   color: #ffffff;
   font-family: "SnellBT Regular", sans-serif;
   color: #000000;
+}
+
+.navbar-brand img {
+  display: block;
+  max-height: 58px;
+  width: auto;
 }
 
 .quote_btn-container {
